@@ -1,0 +1,678 @@
+/* ============================= */
+/* RESET */
+/* ============================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* BODY */
+/* ============================= */
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+
+main{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 50px;
+
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+
+
+/* LOGO */
+
+header img{
+    width: 190px;
+    height: auto;
+    display: block;
+}
+
+
+/* ============================= */
+/* NAV */
+/* ============================= */
+
+nav ul{
+    display: flex;
+    gap: 35px;
+
+    list-style: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+nav a:hover{
+    color: #ff52d1;
+}
+
+
+/* ============================= */
+/* BOTONES */
+/* ============================= */
+
+.boton-descubri{
+    display: inline-block;
+
+    background-color: #c67af2;
+    color: white;
+
+    padding: 14px 28px;
+
+    border-radius: 40px;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+    transition: 0.3s;
+}
+
+
+.boton-descubri:hover{
+    background-color: #ff52d1;
+}
+
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 50px 20px 50px;
+
+    gap: 50px;
+}
+
+
+.hero-texto{
+    width: 50%;
+}
+
+
+.hero-imagen{
+    width: 50%;
+}
+
+
+.hero-imagen img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 30px;
+}
+
+
+.hero h1{ 
+    font-size: 3.2rem;
+    line-height: 1.1;
+
+    max-width: 650px;
+
+    margin-bottom: 25px;
+
+    text-align: left;
+}
+
+
+.hero h1 span{
+    color: #ff52d1;
+}
+
+
+.hero p{
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #555;
+
+    max-width: 680px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ============================= */
+/* INTRO */
+/* ============================= */
+
+.intro{
+    padding: 20px 50px 40px 50px;
+    text-align: center;
+
+}
+
+.intro h3{
+    font-size: 1.8rem;
+
+    color: #000000;
+
+    margin-bottom: 35px;
+}
+
+
+.imagen-tips{
+    width: 90%;
+    max-width: 1800px;
+    height: auto;
+
+    display: block;
+
+    margin: 0 auto;
+
+    border-radius: 30px;
+}
+
+
+/* ============================= */
+/* CAMBIOS */
+/* ============================= */
+
+/* ============================= */
+/* CAMBIOS */
+/* ============================= */
+
+.cambios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 60px;
+
+    padding: 90px 50px;
+
+    background: linear-gradient(135deg, #c67af2 0%, #ff52d1 100%);
+
+    border-radius: 35px;
+
+    margin: 40px 50px;
+
+    box-shadow: 0 15px 35px rgba(255, 82, 209, 0.25);
+}
+
+
+.cambios-texto h2{
+    color: white;
+}
+
+.cambios-texto p{
+    color: white;
+}
+
+.cambios-texto .boton-descubri{
+    background: white;
+    color: #ff52d1;
+}
+
+.cambios-texto .boton-descubri:hover{
+    background-color: #fff0fc;
+    color: #b33fa0;
+}
+
+.cambios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 60px;
+
+    padding: 90px 50px;
+
+    background: linear-gradient(135deg, #9a2edb 0%, #ff52d1 100%);
+
+    border-radius: 35px;
+
+    margin: 40px 50px;
+
+    box-shadow: 0 15px 35px rgba(255, 82, 209, 0.25);
+}
+.cambios-texto h2{
+    font-size: 2.7rem;
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+
+    color: rgb(0, 0, 0);
+}
+
+
+.cambios-texto p{
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #000000e3;
+
+    margin-bottom: 30px;
+}
+
+
+.cambios-imagen{
+    width: 55%;
+}
+
+
+.cambios-imagen img{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 35px;
+}
+
+
+/* ============================= */
+/* HABITOS HOME */
+/* ============================= */
+
+.habitos-home{
+     background-color: white;
+    border: 2px solid #ff52d1;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(255, 82, 209, 0.08);
+    padding: 28px 24px;
+}
+
+
+.habitos-home h2{
+    text-align: center;
+
+    font-size: 2.4rem;
+
+    margin-bottom: 50px;
+
+    color: black;
+}
+
+
+.habitos-home article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 30%;
+
+    background-color: white;
+
+    padding: 35px 25px;
+
+    margin: 0 1.4%;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    border: 1px solid #ffd6f3;
+}
+
+
+.habitos-home article img{
+    width: 80px;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+
+
+.habitos-home article h3{
+    font-size: 1.2rem;
+
+    margin-bottom: 15px;
+
+    color: black;
+}
+
+
+.habitos-home article p{
+    font-size: 0.95rem;
+    line-height: 1.6;
+
+    color: #eb7777;
+}
+
+
+/* ============================= */
+/* RUTINA DIGITAL */
+/* ============================= */
+
+.rutina-digital{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 60px;
+
+    padding: 100px 80px;
+}
+
+
+.rutina-imagen{
+    width: 80%;
+}
+
+
+.rutina-imagen img{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 35px;
+}
+
+
+.rutina-texto{
+    width: 55%;
+}
+
+
+.rutina-texto h2{
+    font-size: 2.6rem;
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+
+    color: black;
+}
+
+
+.rutina-texto p{
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #555;
+
+    margin-bottom: 25px;
+}
+
+
+.rutina-texto ul{
+    margin-bottom: 30px;
+
+    padding-left: 20px;
+}
+
+
+.rutina-texto li{
+    margin-bottom: 12px;
+
+    color: #555;
+
+    line-height: 1.6;
+}
+
+
+/* ============================= */
+/* MENSAJE FINAL */
+/* ============================= */
+
+.mensaje-final{
+    background-color: #fff0fc;
+
+    margin: 0 80px 80px 80px;
+
+    padding: 60px;
+
+    border-radius: 35px;
+
+    text-align: center;
+
+    border: 1px solid #ffd6f3;
+}
+
+
+.mensaje-final h2{
+    font-size: 2.4rem;
+
+    margin-bottom: 20px;
+
+    color: #ff52d1;
+}
+
+
+.mensaje-final p{
+    max-width: 700px;
+
+    margin: 0 auto 30px auto;
+
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #555;
+}
+
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer{
+    background-color: #ff52d1;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+
+    margin-top: 80px;
+}
+
+
+footer p{
+    font-size: 0.9rem;
+
+    color: white;
+}
+/* ============================= */
+/* CENTRAR SECCIONES HOME */
+/* ============================= */
+
+.cambios,
+.habitos-home,
+.rutina-digital{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ============================= */
+/* SECCION VIOLETA */
+/* ============================= */
+
+.cambios{
+    width: calc(100% - 100px);
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Si usaste cambios-contenido, también se centra */
+
+.cambios-contenido{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ============================= */
+/* HABITOS QUE PODES EMPEZAR HOY */
+/* ============================= */
+
+.habitos-home{
+    width: calc(100% - 100px);
+
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 40px;
+}
+
+
+.habitos-home h2{
+    text-align: center;
+}
+
+
+.habitos-home article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 30%;
+
+    margin: 0 1.3% 25px 1.3%;
+
+    text-align: center;
+}/* ============================= */
+/* CENTRADO GENERAL DE PAGINAS */
+/* ============================= */
+
+main{
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Todas las secciones principales tienen el mismo ancho */
+
+main > section,
+main > aside{
+    width: calc(100% - 100px);
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Evita que algo empuje la página para un costado */
+
+body{
+    overflow-x: hidden;
+}
+/* ============================= */
+/* ARREGLO FINAL CENTRADO GENERAL */
+/* ============================= */
+
+.pagina-centrada{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.pagina-centrada > section,
+.pagina-centrada > aside{
+    width: 90% !;
+    max-width: 1200px !;
+
+    margin-left: auto !;
+    margin-right: auto ;
+
+    box-sizing: border-box;
+}
+
+/* ============================= */
+/* RUTINA DIGITAL AJUSTE TITULO */
+/* ============================= */
+
+.rutina-digital{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.rutina-imagen{
+    width: 48%;
+    text-align: center;
+}
+
+
+.rutina-imagen h2{
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: #1f1f1f;
+}
+
+
+.rutina-imagen img{
+    width: 200%;
+    max-width: 420px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.rutina-texto{
+    width: 48%;
+}
+
+
+.rutina-texto p{
+    margin-bottom: 25px;
+}
+
+
+.rutina-texto ul{
+    margin-bottom: 30px;
+}
+

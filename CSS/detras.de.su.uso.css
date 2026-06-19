@@ -1,0 +1,1579 @@
+/* ============================= */
+/* RESET */
+/* ============================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* BODY */
+/* ============================= */
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+
+mmain{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 50px;
+
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+
+
+/* LOGO */
+
+header img{
+    width: 190px;
+    height: auto;
+    display: block;
+}
+
+
+/* ============================= */
+/* NAV */
+/* ============================= */
+
+nav ul{
+    display: flex;
+    gap: 35px;
+
+    list-style: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+nav a:hover{
+    color: #ff52d1;
+}
+
+
+/* ============================= */
+/* SECCION PRINCIPAL */
+/* ============================= */
+
+main > section:first-child{
+    padding: 90px 80px 70px 80px;
+}
+
+
+main > section:first-child h1{
+    max-width: 850px;
+
+    font-size: 3.4rem;
+    line-height: 1.1;
+
+    margin-bottom: 30px;
+
+    color: black;
+}
+
+
+main > section:first-child h1 strong{
+    color: #ff52d1;
+}
+
+
+main > section:first-child p{
+    max-width: 800px;
+
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #555;
+
+    margin-bottom: 20px;
+}
+
+
+/* ============================= */
+/* POR QUE CUESTA PARAR */
+/* ============================= */
+
+main > section:nth-child(2){
+    padding: px;
+
+    background-color: #fff0fc;
+
+    margin: 0 80px;
+
+    border-radius: 35px;
+}
+
+
+main > section:nth-child(2) h2{
+    text-align: center;
+
+    font-size: 2.3rem;
+
+    margin-bottom: 50px;
+
+    color: black;
+}
+
+
+main > section:nth-child(2) article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 23%;
+
+    min-height: 330px;
+
+    background-color: white;
+
+    border: 1px solid #ffd6f3;
+
+    border-radius: 28px;
+
+    padding: 35px 25px;
+
+    margin: 0 0.8% 30px 0.8%;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+main > section:nth-child(2) article:hover{
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(255, 82, 209, 0.18);
+}
+
+
+main > section:nth-child(2) article h3{
+    font-size: 1.2rem;
+
+    color: #ff52d1;
+
+    margin-bottom: 15px;
+}
+
+
+main > section:nth-child(2) article p{
+    font-size: 0.95rem;
+    line-height: 1.7;
+
+    color: #555;
+}
+
+
+/* ============================= */
+/* IMPACTO EN LA VIDA COTIDIANA */
+/* ============================= */
+
+main > section:nth-child(3){
+    padding: 90px 80px;
+}
+
+
+main > section:nth-child(3) h2{
+    text-align: center;
+
+    font-size: 2.3rem;
+
+    margin-bottom: 50px;
+
+    color: black;
+}
+
+
+main > section:nth-child(3) article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 23%;
+
+    min-height: 300px;
+
+    background-color: white;
+
+    border: 1px solid #ffd6f3;
+
+    border-radius: 28px;
+
+    padding: 35px 25px;
+
+    margin: 0 0.8% 30px 0.8%;
+
+    text-align: center;
+}
+
+
+main > section:nth-child(3) article h3{
+    font-size: 1.2rem;
+
+    color: black;
+
+    margin-bottom: 15px;
+}
+
+
+main > section:nth-child(3) article p{
+    font-size: 0.95rem;
+    line-height: 1.7;
+
+    color: #555;
+}
+
+
+/* ============================= */
+/* SEÑALES */
+/* ============================= */
+
+main > section:nth-child(4){
+    padding: 70px 80px;
+
+    margin: 0 80px;
+
+    border-radius: 35px;
+
+    background: linear-gradient(90deg, #fff0fc, #f4e6ff);
+}
+
+
+main > section:nth-child(4) h2{
+    font-size: 2.2rem;
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+    color: black;
+}
+
+
+main > section:nth-child(4) ul{
+    max-width: 850px;
+
+    margin: auto;
+
+    padding-left: 25px;
+}
+
+
+main > section:nth-child(4) li{
+    font-size: 1rem;
+
+    color: #555;
+
+    line-height: 1.8;
+
+    margin-bottom: 12px;
+}
+
+
+/* ============================= */
+/* ASIDE */
+/* ============================= */
+
+aside{
+    background-color: white;
+
+    border: 1px solid #ffd6f3;
+
+    margin: 80px;
+
+    padding: 60px;
+
+    border-radius: 35px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 35px rgba(255, 82, 209, 0.12);
+}
+
+
+aside h2{
+    max-width: 800px;
+
+    margin: 0 auto 25px auto;
+
+    font-size: 2.3rem;
+    line-height: 1.2;
+
+    color: #ff52d1;
+}
+
+
+aside p{
+    max-width: 850px;
+
+    margin: auto;
+
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #555;
+}
+
+
+/* ============================= */
+/* PEQUEÑOS CAMBIOS */
+/* ============================= */
+
+main > section:nth-child(6){
+    padding: 90px 80px;
+}
+
+
+main > section:nth-child(6) h2{
+    text-align: center;
+
+    font-size: 2.3rem;
+
+    margin-bottom: 50px;
+
+    color: black;
+}
+
+
+main > section:nth-child(6) article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 30%;
+
+    min-height: 260px;
+
+    background-color: #fff0fc;
+
+    border: 1px solid #ffd6f3;
+
+    border-radius: 28px;
+
+    padding: 35px 30px;
+
+    margin: 0 1.4% 30px 1.4%;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+main > section:nth-child(6) article:hover{
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(255, 82, 209, 0.15);
+}
+
+
+main > section:nth-child(6) article h3{
+    font-size: 1.2rem;
+
+    color: #ff52d1;
+
+    margin-bottom: 15px;
+}
+
+
+main > section:nth-child(6) article p{
+    font-size: 0.95rem;
+    line-height: 1.7;
+
+    color: #555;
+}
+
+
+/* ============================= */
+/* OBJETIVO FINAL */
+/* ============================= */
+
+main > section:nth-child(7){
+    margin: 0 80px 80px 80px;
+
+    padding: 70px;
+
+    border-radius: 35px;
+
+    background-color: #fff0fc;
+
+    text-align: center;
+
+    border: 1px solid #ffd6f3;
+}
+
+
+main > section:nth-child(7) h2{
+    font-size: 2.4rem;
+
+    margin-bottom: 20px;
+
+    color: black;
+}
+
+
+main > section:nth-child(7) p{
+    max-width: 850px;
+
+    margin: 0 auto 30px auto;
+
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #555;
+}
+
+
+main > section:nth-child(7) a{
+    display: inline-block;
+
+    background-color: #c67af2;
+    color: white;
+
+    padding: 14px 30px;
+
+    border-radius: 40px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+main > section:nth-child(7) a:hover{
+    background-color: #ff52d1;
+}
+
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer{
+    background-color: #ff52d1;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+
+    margin-top: 80px;
+}
+
+
+footer p{
+    color: white;
+
+    font-size: 0.9rem;
+}
+
+/* ============================= */
+/* DETRAS DE SU USO - RESTAURADO */
+/* ============================= */
+
+main{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* ============================= */
+/* SECCIONES GENERALES */
+/* ============================= */
+
+.intro-detras,
+.motivos-detras,
+.impacto-detras,
+.senales-detras,
+.recordatorio-detras,
+.cambios-detras,
+.cierre-detras{
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 70px 50px;
+    border-radius: 35px;
+}
+
+
+/* ============================= */
+/* INTRO */
+/* ============================= */
+
+.intro-detras{
+    background-color: transparent;
+}
+
+
+.intro-detras h1{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+
+.intro-detras h1 span{
+    color: #ff52d1;
+}
+
+
+.intro-detras p{
+    max-width: 850px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+/* ============================= */
+/* MOTIVOS */
+/* ============================= */
+
+.motivos-detras{
+    background-color: #fdf0f8;
+    text-align: center;
+}
+
+
+.motivos-detras h2{
+    font-size: 2.8rem;
+    margin-bottom: 45px;
+}
+
+
+.motivos-detras article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 22%;
+    min-height: 270px;
+
+    margin: 0 1% 25px 1%;
+
+    background-color: white;
+    border: 2px solid #ff52d1;
+    border-radius: 26px;
+    padding: 35px 24px;
+
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(255, 82, 209, 0.12);
+}
+
+
+.motivos-detras article h3{
+    color: #ff52d1;
+    margin-bottom: 18px;
+}
+
+
+/* ============================= */
+/* IMPACTO */
+/* ============================= */
+
+.impacto-detras{
+    text-align: center;
+}
+
+
+.impacto-detras h2{
+    font-size: 2.8rem;
+    margin-bottom: 45px;
+}
+
+
+.impacto-detras article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 22%;
+    min-height: 300px;
+
+    margin: 0 1% 25px 1%;
+
+    background-color: white;
+    border: 2px solid #ff52d1;
+    border-radius: 26px;
+    padding: 35px 24px;
+
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(255, 82, 209, 0.12);
+}
+
+
+.impacto-detras article h3{
+    color: #ff52d1;
+    margin-bottom: 18px;
+}
+
+
+/* ============================= */
+/* SEÑALES */
+/* ============================= */
+
+.senales-detras{
+    background: linear-gradient(135deg, #fff7fc 0%, #fdf0f8 100%);
+    border: 2px solid #ff52d1;
+}
+
+
+.senales-detras h2{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 35px;
+}
+
+
+.senales-detras ul{
+    max-width: 760px;
+    margin: auto;
+    padding-left: 25px;
+}
+
+
+.senales-detras li{
+    margin-bottom: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+
+
+/* ============================= */
+/* RECORDATORIO */
+/* ============================= */
+
+.recordatorio-detras{
+    background-color: #fff7fc;
+    border: 2px solid #ff52d1;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(255, 82, 209, 0.12);
+}
+
+
+.recordatorio-detras h2{
+    font-size: 2.7rem;
+    color: #ff52d1;
+    margin-bottom: 25px;
+}
+
+
+.recordatorio-detras p{
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* ============================= */
+/* CAMBIOS */
+/* ============================= */
+
+.cambios-detras{
+    text-align: center;
+}
+
+
+.cambios-detras h2{
+    font-size: 2.8rem;
+    margin-bottom: 45px;
+}
+
+
+.cambios-detras article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 30%;
+    min-height: 230px;
+
+    margin: 0 1.2% 25px 1.2%;
+
+    background-color: white;
+    border: 2px solid #ff52d1;
+    border-radius: 26px;
+    padding: 35px 24px;
+
+    box-shadow: 0 10px 25px rgba(255, 82, 209, 0.12);
+}
+
+
+.cambios-detras article h3{
+    color: #ff52d1;
+    margin-bottom: 18px;
+}
+
+
+/* ============================= */
+/* CIERRE */
+/* ============================= */
+
+.cierre-detras{
+    background: linear-gradient(135deg, #ff52d1 0%, #9a2edb 100%);
+    text-align: center;
+    color: white;
+    box-shadow: 0 18px 40px rgba(255, 82, 209, 0.22);
+}
+
+
+.cierre-detras h2{
+    color: white;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+
+
+.cierre-detras p{
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    color: white;
+    line-height: 1.8;
+}
+
+
+.cierre-detras .boton-descubri{
+    background: white;
+    color: #ff52d1;
+}
+/* ============================= */
+/* CENTRADO GENERAL - DETRAS DE SU USO */
+/* ============================= */
+
+main{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* Todas las secciones con la misma caja */
+
+.intro-detras,
+.motivos-detras,
+.impacto-detras,
+.senales-detras,
+.recordatorio-detras,
+.cambios-detras,
+.cierre-detras{
+    width: 100%;
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* CENTRAR TITULOS Y CONTENIDO */
+/* ============================= */
+
+.motivos-detras,
+.impacto-detras,
+.senales-detras,
+.recordatorio-detras,
+.cambios-detras,
+.cierre-detras{
+    text-align: center;
+}
+
+
+/* ============================= */
+/* MOTIVOS - 4 CARDS CENTRADAS */
+/* ============================= */
+
+.motivos-detras{
+    padding: 70px 50px;
+}
+
+
+.motivos-detras article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 22%;
+    min-height: 260px;
+
+    margin: 0 1% 25px 1%;
+
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* IMPACTO - 4 CARDS CENTRADAS */
+/* ============================= */
+
+.impacto-detras{
+    padding: 70px 50px;
+}
+
+
+.impacto-detras article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 22%;
+    min-height: 280px;
+
+    margin: 0 1% 25px 1%;
+
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* SEÑALES */
+/* ============================= */
+
+.senales-detras{
+    padding: 70px 50px;
+}
+
+
+.senales-detras ul{
+    max-width: 760px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+}
+
+
+/* ============================= */
+/* RECORDATORIO */
+/* ============================= */
+
+.recordatorio-detras{
+    padding: 60px 50px;
+}
+
+
+.recordatorio-detras p{
+    max-width: 850px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ============================= */
+/* CAMBIOS - 3 CARDS CENTRADAS */
+/* ============================= */
+
+.cambios-detras{
+    padding: 70px 50px;
+}
+
+
+.cambios-detras article{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 30%;
+    min-height: 220px;
+
+    margin: 0 1.2% 25px 1.2%;
+
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* CIERRE */
+/* ============================= */
+
+.cierre-detras{
+    padding: 65px 50px;
+}
+
+
+.cierre-detras p{
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+/* ============================= */
+/* RESCATE FINAL - NO BORRAR NADA */
+/* DETRAS DE SU USO CENTRADO */
+/* ============================= */
+
+main{
+    width: 100% !important;
+    max-width: 1600px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+/* Todas las secciones principales con la misma medida */
+
+main .intro-detras,
+main .motivos-detras,
+main .impacto-detras,
+main .senales-detras,
+main .recordatorio-detras,
+main .cambios-detras,
+main .cierre-detras{
+    width: calc(100% - 100px) !important;
+    max-width: 1200px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+
+    padding: 70px 50px !important;
+
+    box-sizing: border-box !important;
+    border-radius: 35px !important;
+}
+
+
+/* Para que nada quede tirado a la izquierda */
+
+main .motivos-detras,
+main .impacto-detras,
+main .senales-detras,
+main .recordatorio-detras,
+main .cambios-detras,
+main .cierre-detras{
+    text-align: center !important;
+}
+
+
+/* Intro */
+
+main .intro-detras{
+    text-align: left !important;
+}
+
+
+main .intro-detras h1,
+main .intro-detras p{
+    max-width: 850px !important;
+}
+
+
+/* Cards de ¿Por qué cuesta tanto parar? */
+
+main .motivos-detras{
+    background-color: #fdf0f8 !important;
+}
+
+
+main .motivos-detras h2{
+    text-align: center !important;
+    margin-bottom: 45px !important;
+}
+
+
+main .motivos-detras article{
+    display: inline-block !important;
+    vertical-align: top !important;
+
+    width: 22% !important;
+    min-height: 270px !important;
+
+    margin: 0 1% 25px 1% !important;
+
+    box-sizing: border-box !important;
+
+    background-color: white !important;
+    border: 2px solid #ff52d1 !important;
+    border-radius: 26px !important;
+    padding: 35px 24px !important;
+
+    text-align: center !important;
+}
+
+
+/* Cards de impacto */
+
+main .impacto-detras h2{
+    text-align: center !important;
+    margin-bottom: 45px !important;
+}
+
+
+main .impacto-detras article{
+    display: inline-block !important;
+    vertical-align: top !important;
+
+    width: 22% !important;
+    min-height: 300px !important;
+
+    margin: 0 1% 25px 1% !important;
+
+    box-sizing: border-box !important;
+
+    background-color: white !important;
+    border: 2px solid #ff52d1 !important;
+    border-radius: 26px !important;
+    padding: 35px 24px !important;
+
+    text-align: center !important;
+}
+
+
+/* Señales */
+
+main .senales-detras{
+    background: linear-gradient(135deg, #fff7fc 0%, #fdf0f8 100%) !important;
+    border: 2px solid #ff52d1 !important;
+}
+
+
+main .senales-detras h2{
+    text-align: center !important;
+    margin-bottom: 35px !important;
+}
+
+
+main .senales-detras ul{
+    max-width: 760px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding-left: 25px !important;
+
+    text-align: left !important;
+}
+
+
+/* Recordatorio */
+
+main .recordatorio-detras{
+    background-color: #fff7fc !important;
+    border: 2px solid #ff52d1 !important;
+    text-align: center !important;
+}
+
+
+main .recordatorio-detras p{
+    max-width: 850px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* Pequeños cambios */
+
+main .cambios-detras h2{
+    text-align: center !important;
+    margin-bottom: 45px !important;
+}
+
+
+main .cambios-detras article{
+    display: inline-block !important;
+    vertical-align: top !important;
+
+    width: 30% !important;
+    min-height: 220px !important;
+
+    margin: 0 1.2% 25px 1.2% !important;
+
+    box-sizing: border-box !important;
+
+    background-color: white !important;
+    border: 2px solid #ff52d1 !important;
+    border-radius: 26px !important;
+    padding: 35px 24px !important;
+
+    text-align: center !important;
+}
+
+
+/* Cierre */
+
+main .cierre-detras{
+    background: linear-gradient(135deg, #ff52d1 0%, #9a2edb 100%) !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+
+main .cierre-detras h2,
+main .cierre-detras p{
+    color: white !important;
+}
+
+
+main .cierre-detras p{
+    max-width: 800px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
+}
+
+
+main .cierre-detras .boton-descubri{
+    background: white !important;
+    color: #ff52d1 !important;
+}
+/* ============================= */
+/* INTRO DETRAS CON IMAGEN */
+/* ============================= */
+
+.intro-detras{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    gap: 50px !important;
+
+    max-width: 1200px !important;
+
+    margin: 70px auto !important;
+
+    padding: 80px 50px !important;
+
+    background: linear-gradient(135deg, #fff7fc 0%, #ffe1f1 55%, #f7c4ea 100%) !important;
+
+    border: 2px solid #ff52d1 !important;
+
+    border-radius: 38px !important;
+
+    box-shadow: 0 18px 45px rgba(255, 82, 209, 0.18) !important;
+
+    box-sizing: border-box !important;
+}
+
+
+.intro-detras-texto{
+    width: 58% !important;
+}
+
+
+.intro-detras-texto h1{
+    font-size: 4rem !important;
+
+    line-height: 1.05 !important;
+
+    margin-bottom: 28px !important;
+}
+
+
+.intro-detras-texto h1 span{
+    color: #ff52d1 !important;
+}
+
+
+.intro-detras-texto p{
+    max-width: 750px !important;
+
+    font-size: 1.05rem !important;
+
+    line-height: 1.8 !important;
+
+    color: #333 !important;
+
+    margin-bottom: 20px !important;
+}
+
+
+.intro-detras-imagen{
+    width: 42% !important;
+}
+
+
+.intro-detras-imagen img{
+    width: 100% !important;
+
+    max-width: 430px !important;
+
+    display: block !important;
+
+    margin-left: auto !important;
+
+    filter: drop-shadow(0 20px 25px rgba(255, 82, 209, 0.28)) !important;
+}
+/* ============================= */
+/* SUBIR TEXTO HERO DETRAS */
+/* ============================= */
+
+.intro-detras{
+    align-items: flex-start !important;
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+}
+
+
+.intro-detras-texto{
+    padding-top: 10px !important;
+}
+
+
+.intro-detras-texto h1{
+    margin-top: 0 !important;
+    margin-bottom: 25px !important;
+}
+/* ============================= */
+/* AJUSTE HERO DETRAS - MENOS VACIO */
+/* ============================= */
+
+.intro-detras{
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+
+    min-height: 420px !important;
+
+    align-items: center !important;
+}
+
+
+.intro-detras-texto{
+    width: 58% !important;
+}
+
+
+.intro-detras-texto h1{
+    margin-bottom: 20px !important;
+}
+
+
+.intro-detras-texto p{
+    margin-bottom: 14px !important;
+}
+
+
+.intro-detras-imagen{
+    width: 42% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+.intro-detras-imagen img{
+    max-width: 360px !important;
+
+    margin: 0 auto !important;
+}
+/* ============================= */
+/* CINTAS DECORATIVAS - MOTIVOS */
+/* ============================= */
+
+.motivos-detras{
+    position: relative !important;
+    overflow: hidden !important;
+
+    background: linear-gradient(180deg, #ffeaf6 0%, #ffd8ef 100%) !important;
+
+    border: 2px solid #ff52d1 !important;
+    border-radius: 35px !important;
+
+    box-shadow: 0 18px 40px rgba(255, 82, 209, 0.16) !important;
+}
+
+
+/* CINTAS ROSAS */
+
+.motivos-detras::before,
+.motivos-detras::after{
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+    height: 48px;
+
+    background: linear-gradient(90deg, #ff52d1 0%, #ff9fe5 100%);
+
+    border-radius: 999px;
+
+    opacity: 0.45;
+
+    box-shadow: 0 10px 25px rgba(255, 82, 209, 0.25);
+
+    z-index: 0;
+}
+
+
+/* CINTA ARRIBA IZQUIERDA */
+
+.motivos-detras::before{
+    top: 35px;
+    left: -95px;
+
+    transform: rotate(-35deg);
+}
+
+
+/* CINTA ABAJO DERECHA */
+
+.motivos-detras::after{
+    bottom: 35px;
+    right: -95px;
+
+    transform: rotate(-35deg);
+}
+
+
+/* PARA QUE EL TEXTO Y LAS CARDS QUEDEN ARRIBA */
+
+.motivos-detras h2,
+.motivos-detras article{
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* ============================= */
+/* CINTAS DECORATIVAS GENERALES */
+/* IMPACTO / SEÑALES / RECORDATORIO */
+/* ============================= */
+
+.impacto-detras,
+.senales-detras,
+.recordatorio-detras{
+    position: relative !important;
+    overflow: hidden !important;
+
+    border: 2px solid #ff52d1 !important;
+    border-radius: 35px !important;
+
+    box-shadow: 0 18px 40px rgba(255, 82, 209, 0.16) !important;
+}
+
+
+/* FONDOS SUAVES PARA QUE SE NOTE MAS */
+
+.impacto-detras{
+    background: linear-gradient(180deg, #fff0fa 0%, #ffd8ef 100%) !important;
+}
+
+.senales-detras{
+    background: linear-gradient(180deg, #ffe4f3 0%, #fff7fc 100%) !important;
+}
+
+.recordatorio-detras{
+    background: linear-gradient(180deg, #fff7fc 0%, #ffd8ef 100%) !important;
+}
+
+
+/* CINTAS ROSAS */
+
+.impacto-detras::before,
+.impacto-detras::after,
+.senales-detras::before,
+.senales-detras::after,
+.recordatorio-detras::before,
+.recordatorio-detras::after{
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+    height: 48px;
+
+    background: linear-gradient(90deg, #ff52d1 0%, #ff9fe5 100%);
+
+    border-radius: 999px;
+
+    opacity: 0.42;
+
+    box-shadow: 0 10px 25px rgba(255, 82, 209, 0.25);
+
+    z-index: 0;
+}
+
+
+/* CINTA ARRIBA IZQUIERDA */
+
+.impacto-detras::before,
+.senales-detras::before,
+.recordatorio-detras::before{
+    top: 35px;
+    left: -95px;
+
+    transform: rotate(-35deg);
+}
+
+
+/* CINTA ABAJO DERECHA */
+
+.impacto-detras::after,
+.senales-detras::after,
+.recordatorio-detras::after{
+    bottom: 35px;
+    right: -95px;
+
+    transform: rotate(-35deg);
+}
+
+
+/* PARA QUE EL CONTENIDO QUEDE ARRIBA DE LAS CINTAS */
+
+.impacto-detras h2,
+.impacto-detras article,
+.senales-detras h2,
+.senales-detras ul,
+.recordatorio-detras h2,
+.recordatorio-detras p{
+    position: relative !important;
+    z-index: 1 !important;
+}
+/* ============================= */
+/* SEÑALES CON IMAGEN AL COSTADO */
+/* ============================= */
+
+.senales-detras{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 45px !important;
+
+    max-width: 1200px !important;
+
+    padding: 55px 50px !important;
+
+    text-align: left !important;
+}
+
+
+/* IMAGEN IZQUIERDA */
+
+.senales-imagen{
+    width: 42% !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+
+.senales-imagen img{
+    width: 100% !important;
+    max-width: 480px !important;
+
+    display: block !important;
+
+    filter: drop-shadow(0 18px 25px rgba(255, 82, 209, 0.25)) !important;
+}
+
+
+/* CUADRO TEXTO DERECHA */
+
+.senales-contenido{
+    width: 58% !important;
+
+    max-width: 560px !important;
+
+    background-color: rgba(255, 255, 255, 0.78) !important;
+
+    border: 2px solid #ff52d1 !important;
+
+    border-radius: 30px !important;
+
+    padding: 45px 40px !important;
+
+    box-shadow: 0 12px 30px rgba(255, 82, 209, 0.14) !important;
+
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+
+.senales-contenido h2{
+    text-align: center !important;
+
+    margin-bottom: 28px !important;
+}
+
+
+.senales-contenido ul{
+    max-width: 100% !important;
+
+    margin: 0 !important;
+
+    padding-left: 22px !important;
+
+    text-align: left !important;
+}
+
+
+.senales-contenido li{
+    margin-bottom: 14px !important;
+
+    line-height: 1.6 !important;
+}
+/* ============================= */
+/* CIERRE DETRAS - ARREGLO FINAL */
+/* ============================= */
+
+.cierre-detras{
+    max-width: 1000px !important;
+
+    margin: 80px auto !important;
+
+    padding: 70px 50px !important;
+
+    text-align: center !important;
+
+    box-sizing: border-box !important;
+}
+
+
+.cierre-detras-texto{
+    max-width: 760px !important;
+
+    margin: 0 auto !important;
+
+}
+
+
+.cierre-detras p{
+    color: white !important;
+
+   
+
+    margin-bottom: 30px !important;
+}
+
+
+.cierre-detras .boton-descubri{
+    background: white !important;
+
+    color: #ff52d1 !important;
+}
