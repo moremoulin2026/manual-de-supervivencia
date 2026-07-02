@@ -681,37 +681,37 @@ main > section:nth-child(2) article p{
 /* ============================= */
 
 .hero-que-nos-pasa{
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
 
-    gap: 60px !important;
+    gap: 60;
 
-    max-width: 1200px !important;
+    max-width: 1200;
 
-    margin: 70px auto !important;
+    margin: 70px auto ;
 
-    padding: 80px 50px !important;
+    padding: 80px 50px ;
 
-    background: linear-gradient(135deg, #fff7fc 0%, #ffe1f1 55%, #f7c4ea 100%) !important;
+    background: linear-gradient(135deg, #fff7fc 0%, #ffe1f1 55%, #f7c4ea 100%) ;
 
-    border: 2px solid #ff52d1 !important;
-    border-radius: 38px !important;
+    border: 2px solid #ff52d1 ;
+    border-radius: 38px;
 
-    box-shadow: 0 18px 45px rgba(255, 82, 209, 0.18) !important;
+    box-shadow: 0 18px 45px rgba(255, 82, 209, 0.18) ;
 
-    box-sizing: border-box !important;
+    box-sizing: border-box ;
 }
 
 
 .texto-hero-que-nos-pasa{
-    width: 58% !important;
+    width: 58% ;
 }
 
 
 .texto-hero-que-nos-pasa h1{
-    font-size: 4rem !important;
-    line-height: 1.05 !important;
+    font-size: 4rem ;
+    line-height: 1.05;
     margin-bottom: 28px !important;
 }
 
@@ -1071,5 +1071,28 @@ main > section:nth-child(2) article p{
 
     position: relative !important;
     z-index: 1 !important;
+}
+
+.senales-imagen-lado img {
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    filter: drop-shadow(0 18px 25px rgba(255, 82, 209, 0.28));
+}
+
+.senales-layout {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.senales-info {
+    flex: 1;
+}
+
+.senales-imagen-lado {
+    flex: 0 0 280px;
 }
 
