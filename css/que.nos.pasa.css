@@ -1095,4 +1095,26 @@ main > section:nth-child(2) article p{
 .senales-imagen-lado {
     flex: 0 0 280px;
 }
+.senales-imagen-lado img {
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    filter: drop-shadow(0 18px 25px rgba(255, 82, 209, 0.28));
+}
+
+.senales-layout {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.senales-info {
+    flex: 1;
+}
+
+.senales-imagen-lado {
+    flex: 0 0 280px;
+}
 
