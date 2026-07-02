@@ -730,3 +730,14 @@ footer p{
     margin-top: 80px !important;
     margin-bottom: 120px !important;
 }
+/* ============================= */
+/* FORZAR CENTRADO FINAL */
+/* ============================= */
+
+.mensajes-usuarios,
+.contacto-bloques,
+.contacto-presentacion {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1200px !important;
+}
