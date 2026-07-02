@@ -38,11 +38,11 @@
 /* ============================= */
 
 body{
-    background-color: var(--rosa-fondo);
+    background-color: (--rosa-fondo);
 
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 
-    color: var(--texto-principal);
+    color: (--texto-principal);
 
     overflow-x: hidden;
 }
@@ -91,7 +91,7 @@ h2{
 
     letter-spacing: -0.5px;
 
-    color: var(--texto-principal);
+    color: (--texto-principal);
 }
 
 
@@ -103,7 +103,7 @@ h4{
 
     font-style: italic;
 
-    color: var(--texto-principal);
+    color:(--texto-principal);
 }
 
 
@@ -325,7 +325,7 @@ article{
 
 
 .card:hover{
-    transform: translateY(-4px);
+    transform: (-4px);
 
     box-shadow: 0 12px 30px rgba(255, 82, 209, 0.10);
 }
